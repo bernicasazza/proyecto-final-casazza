@@ -1,0 +1,15 @@
+%grid-serv{
+    padding: 5%;
+    @media screen and (min-width:1024px){
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 50%);
+    justify-items: center;
+    }
+  
+}
+%hover-btn{
+    color: black;
+    background-color: white;
+    transition: 1s;
+}

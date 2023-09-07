@@ -1,0 +1,62 @@
+@import "../utilidades/mixin";
+@import "../utilidades/extend";
+.main-serv{
+    @include main(url(../galeria/chica-cursos.jpg))
+}
+
+.titulo-card{
+    color: white;
+    h5{
+font-size: 20px;
+    }
+}
+.servicios-card{
+    .card{
+        margin-bottom: 5%;
+    }
+    .card:hover{
+        img:hover{
+            opacity: 0,1;
+        }
+    }
+    .def-serv:hover{
+        opacity: 1;
+    }
+    .def-serv{
+        a{
+            border-color: white;
+            background-color: rgba(240, 248, 255, 0);
+        }
+        a:hover{
+           @extend %hover-btn;
+        }
+        opacity: 0;
+    }
+}
+.main-serv{
+    @include main-responsive
+}
+
+ .servicios-card{
+     @extend %grid-serv;
+ }
+ @media screen and (min-width:768px){
+   .servicios-card{
+    .card{
+        margin-left: 20%;
+    }
+   }
+ } 
+ @media screen and (min-width:1024px){
+ .servicios-card{
+    .card{
+        margin: 5%;
+        width: 90% !important;
+    }
+    h5{
+        font-size: 40px;
+        font-weight: 500;
+    }
+ }
+ }
+   
