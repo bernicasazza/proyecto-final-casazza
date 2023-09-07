@@ -1,12 +1,26 @@
 footer{
+    h5{
+        color: blanchedalmond;
+        padding: 20px;
+        padding-top: 30px;
+        font-size: 15px;
+    }
     height: 10vh;
     background-color: black;
     position: relative;
     .wpp{
-        height: 50px;
-        width: 50px;
+        height: 60px;
+        width: 60px;
         position: fixed;
         left: 90%;
         bottom: 2%;
+    }
+    @media screen and (max-width:768px){
+        h5{
+            color: blanchedalmond;
+            padding: 20px;
+            padding-top: 30px;
+            font-size: 10px;
+        }
     }
 }

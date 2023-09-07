@@ -550,12 +550,23 @@ footer {
   height: 10vh;
   background-color: black;
   position: relative; }
+  footer h5 {
+    color: blanchedalmond;
+    padding: 20px;
+    padding-top: 30px;
+    font-size: 15px; }
   footer .wpp {
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
     position: fixed;
     left: 90%;
     bottom: 2%; }
+  @media screen and (max-width: 768px) {
+    footer h5 {
+      color: blanchedalmond;
+      padding: 20px;
+      padding-top: 30px;
+      font-size: 10px; } }
 
 .servicios-card {
   padding: 5%; }
