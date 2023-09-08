@@ -413,7 +413,7 @@
 
 @media screen and (max-width: 768px) {
   .servicios-card .card {
-    width: 700px; } }
+    width: 80%; } }
 
 @media screen and (min-width: 768px) {
   .servicios-card .card {
