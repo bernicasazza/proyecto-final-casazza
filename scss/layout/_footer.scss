@@ -15,19 +15,22 @@ footer{
         left: 90%;
         bottom: 2%;
     }
-    @media screen and (min-width:768px){
-    footer{
-        .wpp{
-            left: 70%;
-        }
-    }
+   
     }
     @media screen and (max-width:768px){
+   
         h5{
             color: blanchedalmond;
             padding: 20px;
             padding-top: 30px;
             font-size: 10px;
         }
+  
+}
+@media screen and (max-width:768px){
+footer{
+    .wpp{
+        left: 82%;
     }
+}
 }

@@ -411,6 +411,10 @@
       font-weight: 200;
       font-style: normal; } }
 
+@media screen and (max-width: 768px) {
+  .servicios-card .card {
+    width: 700px; } }
+
 @media screen and (min-width: 768px) {
   .servicios-card .card {
     margin-left: 20%; } }
@@ -561,15 +565,17 @@ footer {
     position: fixed;
     left: 90%;
     bottom: 2%; }
-  @media screen and (min-width: 768px) {
-    footer footer .wpp {
-      padding-left: 70%; } }
-  @media screen and (max-width: 768px) {
-    footer h5 {
-      color: blanchedalmond;
-      padding: 20px;
-      padding-top: 30px;
-      font-size: 10px; } }
+
+@media screen and (max-width: 768px) {
+  h5 {
+    color: blanchedalmond;
+    padding: 20px;
+    padding-top: 30px;
+    font-size: 10px; } }
+
+@media screen and (max-width: 768px) {
+  footer .wpp {
+    left: 82%; } }
 
 .servicios-card {
   padding: 5%; }
