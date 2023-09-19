@@ -22,7 +22,8 @@
   background-size: cover; }
   .main-index h4 {
     font-style: italic;
-    font-size: 15px; }
+    font-size: 15px;
+    font-weight: 200; }
   .main-index a {
     border: solid;
     border-radius: 10px;
@@ -107,7 +108,7 @@
     .grid .reloj img, .grid .sorpresa img, .grid .dinero img {
       padding-right: 7%;
       height: 120px;
-      width: 170px; }
+      width: 140px; }
   .grid h2 {
     padding-top: 5%;
     font-size: 14px; }
@@ -339,7 +340,7 @@
   box-shadow: 5px 5px 5px black;
   margin-bottom: 5%;
   border-radius: 10px !important;
-  background-color: black; }
+  background-color: rgba(212, 71, 179, 0.575); }
 
 .acordiones .items {
   border-radius: 10%;
