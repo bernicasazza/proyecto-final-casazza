@@ -112,15 +112,17 @@
     font-size: 12px; }
 
 @media screen and (max-width: 768px) {
-  .grid .reloj, .grid .sorpresa, .grid .dinero {
-    padding-top: 5%;
-    font-size: 15px;
-    font-weight: 200;
-    text-align: center; }
-    .grid .reloj img, .grid .sorpresa img, .grid .dinero img {
-      padding-right: 5%;
-      height: 120px;
-      width: 140px; } }
+  .grid {
+    overflow: auto; }
+    .grid .reloj, .grid .sorpresa, .grid .dinero {
+      padding-top: 5%;
+      font-size: 15px;
+      font-weight: 200;
+      text-align: center; }
+      .grid .reloj img, .grid .sorpresa img, .grid .dinero img {
+        padding-right: 5%;
+        height: 120px;
+        width: 140px; } }
 
 @media screen and (min-width: 768px) {
   .main-index {
