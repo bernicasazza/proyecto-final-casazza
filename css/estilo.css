@@ -166,7 +166,7 @@
       font-size: 80px;
       font-weight: 300;
       font-family: 'Poppins' sans-serif; }
-    .main-index h4 {
+    .main-index h3 {
       font-size: 30px; }
   .boton-index {
     padding: 100px;
@@ -180,7 +180,7 @@
     .grid .reloj img, .grid .sorpresa img, .grid .dinero img {
       margin-left: 60px;
       height: 190px;
-      width: 200px; }
+      width: 220px; }
     .grid h2 {
       margin-left: 20px;
       padding-top: 5%;
