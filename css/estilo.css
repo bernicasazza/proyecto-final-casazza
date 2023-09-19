@@ -118,7 +118,7 @@
     font-weight: 200;
     text-align: center; }
     .grid .reloj img, .grid .sorpresa img, .grid .dinero img {
-      padding-right: 50%;
+      padding-right: 5%;
       height: 120px;
       width: 140px; } }
 
