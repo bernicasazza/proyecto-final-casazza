@@ -96,11 +96,7 @@
   background-image: url(../galeria/fondo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  display: grid;
-  grid-template-columns: repeat(3, 30%);
-  justify-content: center;
-  font-family: 'Poppins', sans-serif;
-  gap: 5%; }
+  font-family: 'Poppins', sans-serif; }
   .grid .reloj, .grid .sorpresa, .grid .dinero {
     padding-top: 5%;
     font-size: 15px;
@@ -123,7 +119,11 @@
   .errores-titulo h2 {
     font-size: 30px; }
   .grid {
-    height: 60vh; }
+    height: 60vh;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    justify-content: center;
+    gap: 5%; }
     .grid h2 {
       padding-top: 5%;
       font-size: 20px; }
