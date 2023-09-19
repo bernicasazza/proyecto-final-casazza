@@ -96,7 +96,7 @@
 }
 .grid{
   padding: 15px;
-  height: 55vh;
+  height: 100vh;
   color: white;
   background-image: url(../galeria/fondo.jpg);
   background-repeat: no-repeat;
@@ -120,6 +120,22 @@
       font-size: 12px;
   }
 }
+@media screen and (max-width:768px){
+.grid{
+    .reloj, .sorpresa, .dinero{
+        padding-top: 5%;
+        font-size: 15px;
+        font-weight: 200;
+        text-align: center;
+        img{
+            padding-right: 50%;
+            height: 120px;
+            width: 140px;
+        }
+    }   
+}
+}
+
 @media screen and (min-width:768px){
     .main-index{
         height:40vh;
