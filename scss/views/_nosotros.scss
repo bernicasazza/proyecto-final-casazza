@@ -14,16 +14,20 @@
             padding: 5px;
         }
         img{
-            border: solid;
+            border-radius: 50%;
             border-color: #f2f1ff;
             height: 60%;
             width: 60% 
         }
         a{
             img{
+                border-radius: 0%;
                 height: 15%;
                 width: 30%;
             }
+        }
+        a:hover{
+            filter: grayscale(100%);
         }
        }
        

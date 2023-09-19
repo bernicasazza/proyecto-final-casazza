@@ -202,7 +202,7 @@
     grid-template-columns: 2fr 1fr; }
     .escrito .escrito-uno img, .escrito .escrito-dos img, .escrito .escrito-tres img {
       height: 80%;
-      width: 100%; } }
+      width: 110%; } }
 
 .main-nosotros {
   font-style: italic;
@@ -231,13 +231,16 @@
       font-size: 15px;
       padding: 5px; }
     .patri .patri-responsive img, .patri .andre-responsive img, .andre .patri-responsive img, .andre .andre-responsive img {
-      border: solid;
+      border-radius: 50%;
       border-color: #f2f1ff;
       height: 60%;
       width: 60%; }
     .patri .patri-responsive a img, .patri .andre-responsive a img, .andre .patri-responsive a img, .andre .andre-responsive a img {
+      border-radius: 0%;
       height: 15%;
       width: 30%; }
+    .patri .patri-responsive a:hover, .patri .andre-responsive a:hover, .andre .patri-responsive a:hover, .andre .andre-responsive a:hover {
+      filter: grayscale(100%); }
   .patri h2, .andre h2 {
     text-decoration: underline;
     font-size: 20px;
@@ -519,6 +522,20 @@
       margin-left: 2%;
       font-size: 20px;
       text-decoration: dashed; }
+  .mapa .redes {
+    padding-left: 45%;
+    padding-bottom: 5%; }
+    .mapa .redes img {
+      height: 40px;
+      width: 40px; }
+
+@media screen and (min-width: 768px) {
+  .mapa .redes {
+    padding-top: 5%;
+    padding-left: 45%; }
+    .mapa .redes img {
+      height: 40px;
+      width: 40px; } }
 
 @media screen and (min-width: 1024px) {
   .form-responsive {
