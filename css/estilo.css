@@ -58,12 +58,14 @@
     .section-cursos .texto-cursos a {
       font-size: 80%;
       padding: 1%;
-      border-radius: 10px;
+      border-radius: 30px;
       color: antiquewhite;
       text-decoration: none;
-      border-color: #474747;
-      border-style: solid;
-      background-color: rgba(255, 255, 255, 0.369); }
+      border-color: white;
+      border-style: solid; }
+    .section-cursos .texto-cursos a:hover {
+      background-color: aliceblue;
+      color: black; }
   .section-cursos img {
     padding-top: 5%;
     height: 50vh;
@@ -127,10 +129,8 @@
         width: 140px; } }
 
 @media screen and (min-width: 768px) {
-  .main-index {
-    height: 40vh; }
-    .main-index a:hover {
-      font-size: 20px; }
+  .main-index a:hover {
+    font-size: 20px; }
   .errores-titulo h2 {
     font-size: 30px; }
   .grid {
@@ -150,14 +150,19 @@
         height: 170px;
         width: 180px; }
   .section-cursos {
+    height: 40vh;
     display: flex;
-    flex-direction: row;
-    height: 40vh; }
+    flex-direction: column 50%, 50%;
+    justify-content: space-between; }
     .section-cursos .texto-cursos {
-      padding-top: 10%; }
+      width: 50vh;
+      height: 60vh;
+      padding-top: 10%;
+      padding-left: 10%; }
     .section-cursos img {
-      padding-top: 0%;
-      height: 40vh; } }
+      padding: 0%;
+      height: 40vh;
+      width: 70vh; } }
 
 @media screen and (min-width: 1024px) {
   .main-index a:hover {
@@ -173,55 +178,49 @@
       background-color: rgba(255, 255, 255, 0.369); }
     .section-cursos img {
       height: 70vh;
-      padding-top: 0%; } }
-
-.main-index {
-  height: 90vh; }
-  .main-index h1 {
-    padding-top: 10%;
-    font-size: 80px;
-    font-weight: 300;
-    font-family: 'Poppins' sans-serif; }
-  .main-index h3 {
-    font-size: 30px; }
-
-.boton-index {
-  padding: 100px;
-  font-size: 30px;
-  border-radius: 100px; }
-
-.grid {
-  height: 60vh;
-  gap: 3%; }
-  .grid p {
+      padding-top: 0%; }
+  .main-index {
+    height: 90vh; }
+    .main-index h1 {
+      padding-top: 10%;
+      font-size: 80px;
+      font-weight: 300;
+      font-family: 'Poppins' sans-serif; }
+    .main-index h3 {
+      font-size: 30px; }
+  .boton-index {
+    padding: 100px;
+    font-size: 30px;
+    border-radius: 100px; }
+  .grid {
+    height: 60vh;
+    gap: 3%; }
+    .grid p {
+      margin-left: 20px; }
+    .grid .reloj img, .grid .sorpresa img, .grid .dinero img {
+      margin-left: 60px;
+      height: 190px;
+      width: 220px; }
+    .grid h2 {
+      margin-left: 20px;
+      padding-top: 5%;
+      font-size: 25px;
+      font-weight: 400; }
+  .img-comienzos-g {
+    display: inline-block;
+    height: 300px;
+    width: 400px;
     margin-left: 20px; }
-  .grid .reloj img, .grid .sorpresa img, .grid .dinero img {
-    margin-left: 60px;
-    height: 190px;
-    width: 220px; }
-  .grid h2 {
-    margin-left: 20px;
-    padding-top: 5%;
-    font-size: 25px;
-    font-weight: 400; }
-
-.img-comienzos-g {
-  display: inline-block;
-  height: 300px;
-  width: 400px;
-  margin-left: 20px; }
-
-.escrito h3 {
-  font-style: italic;
-  font-size: 40px; }
-
-.escrito .escrito-uno, .escrito .escrito-dos, .escrito .escrito-tres {
-  display: grid;
-  align-items: center;
-  grid-template-columns: 2fr 1fr; }
-  .escrito .escrito-uno img, .escrito .escrito-dos img, .escrito .escrito-tres img {
-    height: 80%;
-    width: 110%; }
+  .escrito h3 {
+    font-style: italic;
+    font-size: 40px; }
+  .escrito .escrito-uno, .escrito .escrito-dos, .escrito .escrito-tres {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2fr 1fr; }
+    .escrito .escrito-uno img, .escrito .escrito-dos img, .escrito .escrito-tres img {
+      height: 80%;
+      width: 110%; } }
 
 .main-nosotros {
   font-style: italic;

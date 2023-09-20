@@ -13,6 +13,7 @@
         font-size: 15px;
         font-weight: 100;
     }
+   
     a{
         border: solid;
         border-radius: 10px;
@@ -54,12 +55,15 @@
        a{
           font-size:80%;
           padding: 1%;
-          border-radius: 10px;
+          border-radius: 30px;
           color: antiquewhite;
           text-decoration: none;
-          border-color: rgb(71, 71, 71);
-          border-style: solid;
-          background-color: rgba(255, 255, 255, 0.369);  
+          border-color: rgb(255, 255, 255);
+          border-style: solid; 
+      }
+      a:hover{
+        background-color: aliceblue;
+        color: black;
       }
   }
           img{
@@ -122,6 +126,7 @@
   }
 }
 @media screen and (max-width:768px){
+  
 .grid{
     overflow: auto;
     .reloj, .sorpresa, .dinero{
@@ -140,7 +145,7 @@
 
 @media screen and (min-width:768px){
     .main-index{
-        height:40vh;
+       
     a:hover{
         font-size: 20px;
             }
@@ -171,15 +176,22 @@
     }
     }
     .section-cursos{
-        display: flex;
-        flex-direction: row;
         height: 40vh;
+        display: flex;
+        flex-direction: column (50%, 50%);
+        justify-content: space-between;
+        
+        
         .texto-cursos{
+            width: 50vh;
+            height: 60vh;
             padding-top: 10%;
+            padding-left: 10%;
         }
         img{
-            padding-top: 0%;
+            padding: 0%;
             height: 40vh;
+            width: 70vh;
         }
     }
 }
@@ -207,7 +219,7 @@
         }
         
        }
-    }
+    
     .main-index{
         height:90vh;
         h1{
@@ -266,7 +278,7 @@
             }
         }
     }
-
+}
 
    
   
