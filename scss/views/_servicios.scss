@@ -13,10 +13,8 @@ font-size: 20px;
 .servicios-card{
     .card{
         margin-bottom: 5%;
-    }
-    .card:hover{
-        img:hover{
-            opacity: 0,1;
+        .img:hover{
+            filter: grayscale(100%);
         }
     }
     .def-serv:hover{

@@ -34,7 +34,9 @@
     }
 }
 .section-cursos{
-    height: 20vh;
+    height: 60vh;
+    margin-top: 5%;
+    margin-bottom: 10%;
     background-color:$color-secundario;
     font-family: 'Poppins' italic'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; ;
       .texto-cursos{
@@ -60,14 +62,13 @@
           background-color: rgba(255, 255, 255, 0.369);  
       }
   }
-       .foto-nene{
           img{
-              height: 30%;
-              width: 20%;
-              display: none;
+            padding-top: 5%;
+              height: 50vh;
+              width: 100%;
           }
        }
-}
+
 .escrito{
     padding: 5%;
 
@@ -169,6 +170,18 @@
         }
     }
     }
+    .section-cursos{
+        display: flex;
+        flex-direction: row;
+        height: 40vh;
+        .texto-cursos{
+            padding-top: 10%;
+        }
+        img{
+            padding-top: 0%;
+            height: 40vh;
+        }
+    }
 }
 @media screen and (min-width:1024px){
     .main-index{
@@ -177,6 +190,7 @@
         }
     }
     .section-cursos{
+        height: 70vh;
         .texto-cursos{
             a{
                 font-size:15px;
@@ -187,11 +201,11 @@
                 background-color: rgba(255, 255, 255, 0.369);  
             }
         }
-       .foto-nene{
-          img{
-              height: 30%;
-              width: 20%;
-          }
+        img{
+            height: 70vh;
+            padding-top: 0%;
+        }
+        
        }
     }
     .main-index{
@@ -252,7 +266,7 @@
             }
         }
     }
-}
+
 
    
   
