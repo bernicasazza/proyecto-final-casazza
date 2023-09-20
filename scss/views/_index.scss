@@ -202,19 +202,23 @@
         }
     }
     .section-cursos{
-        height: 70vh;
+        height: 60vh;
+        display: flex;
+        flex-direction: column (50%, 50%);
+        justify-content: space-between;
+        
         .texto-cursos{
+            width: 100vh;
+            font-size: 20px;
+            padding-left: 5%;
             a{
                 font-size:15px;
                 padding: 10px;
-                border-radius: 10px;
-                color: antiquewhite;
-                border-color: rgb(71, 71, 71);
-                background-color: rgba(255, 255, 255, 0.369);  
             }
         }
         img{
-            height: 70vh;
+            width: 100vh;
+            height: 60vh;
             padding-top: 0%;
         }
         

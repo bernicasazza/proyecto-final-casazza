@@ -168,16 +168,20 @@
   .main-index a:hover {
     font-size: 30px; }
   .section-cursos {
-    height: 70vh; }
-    .section-cursos .texto-cursos a {
-      font-size: 15px;
-      padding: 10px;
-      border-radius: 10px;
-      color: antiquewhite;
-      border-color: #474747;
-      background-color: rgba(255, 255, 255, 0.369); }
+    height: 60vh;
+    display: flex;
+    flex-direction: column 50%, 50%;
+    justify-content: space-between; }
+    .section-cursos .texto-cursos {
+      width: 100vh;
+      font-size: 20px;
+      padding-left: 5%; }
+      .section-cursos .texto-cursos a {
+        font-size: 15px;
+        padding: 10px; }
     .section-cursos img {
-      height: 70vh;
+      width: 100vh;
+      height: 60vh;
       padding-top: 0%; }
   .main-index {
     height: 90vh; }
@@ -368,13 +372,13 @@
 
 .section-acordion {
   margin: 10%;
-  height: 40vh; }
+  height: 100vh; }
 
 .acordiones .collapsed {
   box-shadow: 5px 5px 5px black;
   margin-bottom: 5%;
   border-radius: 10px !important;
-  background-color: rgba(212, 71, 179, 0.575); }
+  background-color: rgba(244, 244, 244, 0.575); }
 
 .acordiones .items {
   border-radius: 10%;
@@ -418,19 +422,19 @@
   .titulo-card h5 {
     font-size: 20px; }
 
-.servicios-card .card {
-  margin-bottom: 5%; }
-  .servicios-card .card .img:hover {
-    filter: grayscale(100%); }
-
-.servicios-card .def-serv:hover {
-  opacity: 1; }
-
-.servicios-card .def-serv {
-  opacity: 0; }
-  .servicios-card .def-serv a {
-    border-color: white;
-    background-color: rgba(240, 248, 255, 0); }
+.servicios-card {
+  width: 90vh; }
+  .servicios-card .card {
+    margin-bottom: 5%; }
+    .servicios-card .card .img:hover {
+      filter: grayscale(100%); }
+  .servicios-card .def-serv:hover {
+    opacity: 1; }
+  .servicios-card .def-serv {
+    opacity: 0; }
+    .servicios-card .def-serv a {
+      border-color: white;
+      background-color: rgba(240, 248, 255, 0); }
 
 @media screen and (min-width: 768px) {
   .main-serv {
@@ -521,7 +525,7 @@
       border-radius: 10%; }
 
 .mapa {
-  height: 50vh;
+  height: 100vh;
   padding: 5%; }
   .mapa iframe {
     height: 70%;
@@ -540,8 +544,8 @@
       font-size: 20px;
       text-decoration: dashed; }
   .mapa .redes {
-    padding-left: 45%;
-    padding-bottom: 5%; }
+    padding-left: 35%;
+    padding-top: 10%; }
     .mapa .redes img {
       height: 40px;
       width: 40px; }
