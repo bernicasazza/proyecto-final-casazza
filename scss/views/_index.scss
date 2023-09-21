@@ -62,8 +62,7 @@
           border-style: solid; 
       }
       a:hover{
-        background-color: aliceblue;
-        color: black;
+        @extend %hover-btn;
       }
   }
           img{
@@ -72,7 +71,44 @@
               width: 100%;
           }
        }
-
+       .section-faq{
+        height: 60vh;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        background-color:$color-terciario;
+        font-family: 'Poppins' italic'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; ;
+          .texto-faq{
+              color: antiquewhite;
+              padding-top: 1%;
+              text-align: center;
+              font-weight: 400;
+              font-size: medium;
+           p{
+              color: antiquewhite;
+              font-size: smaller;
+              text-align: center;
+              font-weight: 300;
+           }
+           a{
+              font-size:80%;
+              padding: 1%;
+              border-radius: 30px;
+              color: antiquewhite;
+              text-decoration: none;
+              border-color: rgb(255, 255, 255);
+              border-style: solid; 
+          }
+          a:hover{
+            @extend %hover-btn;
+          }
+      }
+              img{
+                padding-top: 5%;
+                  height: 50vh;
+                  width: 100%;
+              }
+           }
+    
 .escrito{
     padding: 5%;
 
@@ -194,6 +230,25 @@
             width: 70vh;
         }
     }
+    .section-faq{
+        height: 40vh;
+        display: flex;
+        flex-direction: column (50%, 50%);
+        justify-content: space-between;
+        
+        
+        .texto-faq{
+            width: 50vh;
+            height: 60vh;
+            padding-top: 10%;
+            padding-left: 10%;
+        }
+        img{
+            padding: 0%;
+            height: 40vh;
+            width: 70vh;
+        }
+    }
 }
 @media screen and (min-width:1024px){
     .main-index{
@@ -221,7 +276,27 @@
             height: 60vh;
             padding-top: 0%;
         }
-        
+    }
+        .section-faq{
+            height: 60vh;
+            display: flex;
+            flex-direction: column (50%, 50%);
+            justify-content: space-between;
+            
+            .texto-faq{
+                width: 100vh;
+                font-size: 20px;
+                padding-left: 5%;
+                a{
+                    font-size:15px;
+                    padding: 10px;
+                }
+            }
+            img{
+                width: 100vh;
+                height: 60vh;
+                padding-top: 0%;
+            }
        }
     
     .main-index{

@@ -28,8 +28,13 @@
 }
 @media screen and (min-width:768px){
 .section.acordion{
-    display: grid;
-    grid-template-rows: 1fr 1fr;
+    .acordiones{
+            display: grid;
+            grid-template-columns: 50% 50%;
     
+        
+        
+    }
+   
 }
 }

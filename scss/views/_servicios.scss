@@ -11,7 +11,6 @@ font-size: 20px;
     }
 }
 .servicios-card{
-    width: 90vh;
     .card{
         margin-bottom: 5%;
         .img:hover{
@@ -39,14 +38,7 @@ font-size: 20px;
  .servicios-card{
      @extend %grid-serv;
  }
- @media screen and (max-width:768px){
-.servicios-card{
-    .card{
-        width: 80%;
-    }
 
-    }
-}
 
  @media screen and (min-width:768px){
    .servicios-card{
@@ -59,7 +51,7 @@ font-size: 20px;
  .servicios-card{
     .card{
         margin: 5%;
-        width: 90% !important;
+        width:90% !important;
     }
     h5{
         font-size: 40px;

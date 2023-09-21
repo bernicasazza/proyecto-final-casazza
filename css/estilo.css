@@ -7,7 +7,7 @@
       grid-template-rows: repeat(2, 50%);
       justify-items: center; } }
 
-.main-index a:hover, .servicios-card .def-serv a:hover {
+.main-index a:hover, .section-cursos .texto-cursos a:hover, .section-faq .texto-faq a:hover, .servicios-card .def-serv a:hover {
   color: black;
   background-color: white;
   transition: 1s; }
@@ -63,10 +63,37 @@
       text-decoration: none;
       border-color: white;
       border-style: solid; }
-    .section-cursos .texto-cursos a:hover {
-      background-color: aliceblue;
-      color: black; }
   .section-cursos img {
+    padding-top: 5%;
+    height: 50vh;
+    width: 100%; }
+
+.section-faq {
+  height: 60vh;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  background-color: #33042f;
+  font-family: "Poppins" italic "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
+  .section-faq .texto-faq {
+    color: antiquewhite;
+    padding-top: 1%;
+    text-align: center;
+    font-weight: 400;
+    font-size: medium; }
+    .section-faq .texto-faq p {
+      color: antiquewhite;
+      font-size: smaller;
+      text-align: center;
+      font-weight: 300; }
+    .section-faq .texto-faq a {
+      font-size: 80%;
+      padding: 1%;
+      border-radius: 30px;
+      color: antiquewhite;
+      text-decoration: none;
+      border-color: white;
+      border-style: solid; }
+  .section-faq img {
     padding-top: 5%;
     height: 50vh;
     width: 100%; }
@@ -162,6 +189,20 @@
     .section-cursos img {
       padding: 0%;
       height: 40vh;
+      width: 70vh; }
+  .section-faq {
+    height: 40vh;
+    display: flex;
+    flex-direction: column 50%, 50%;
+    justify-content: space-between; }
+    .section-faq .texto-faq {
+      width: 50vh;
+      height: 60vh;
+      padding-top: 10%;
+      padding-left: 10%; }
+    .section-faq img {
+      padding: 0%;
+      height: 40vh;
       width: 70vh; } }
 
 @media screen and (min-width: 1024px) {
@@ -180,6 +221,22 @@
         font-size: 15px;
         padding: 10px; }
     .section-cursos img {
+      width: 100vh;
+      height: 60vh;
+      padding-top: 0%; }
+  .section-faq {
+    height: 60vh;
+    display: flex;
+    flex-direction: column 50%, 50%;
+    justify-content: space-between; }
+    .section-faq .texto-faq {
+      width: 100vh;
+      font-size: 20px;
+      padding-left: 5%; }
+      .section-faq .texto-faq a {
+        font-size: 15px;
+        padding: 10px; }
+    .section-faq img {
       width: 100vh;
       height: 60vh;
       padding-top: 0%; }
@@ -388,9 +445,9 @@
   border-color: #f2f1ff; }
 
 @media screen and (min-width: 768px) {
-  .section.acordion {
+  .section.acordion .acordiones {
     display: grid;
-    grid-template-rows: 1fr 1fr; } }
+    grid-template-columns: 50% 50%; } }
 
 .servicios-card {
   padding: 5%; }
@@ -401,7 +458,7 @@
       grid-template-rows: repeat(2, 50%);
       justify-items: center; } }
 
-.main-index a:hover, .servicios-card .def-serv a:hover {
+.main-index a:hover, .section-cursos .texto-cursos a:hover, .section-faq .texto-faq a:hover, .servicios-card .def-serv a:hover {
   color: black;
   background-color: white;
   transition: 1s; }
@@ -428,19 +485,19 @@
   .titulo-card h5 {
     font-size: 20px; }
 
-.servicios-card {
-  width: 90vh; }
-  .servicios-card .card {
-    margin-bottom: 5%; }
-    .servicios-card .card .img:hover {
-      filter: grayscale(100%); }
-  .servicios-card .def-serv:hover {
-    opacity: 1; }
-  .servicios-card .def-serv {
-    opacity: 0; }
-    .servicios-card .def-serv a {
-      border-color: white;
-      background-color: rgba(240, 248, 255, 0); }
+.servicios-card .card {
+  margin-bottom: 5%; }
+  .servicios-card .card .img:hover {
+    filter: grayscale(100%); }
+
+.servicios-card .def-serv:hover {
+  opacity: 1; }
+
+.servicios-card .def-serv {
+  opacity: 0; }
+  .servicios-card .def-serv a {
+    border-color: white;
+    background-color: rgba(240, 248, 255, 0); }
 
 @media screen and (min-width: 768px) {
   .main-serv {
@@ -453,10 +510,6 @@
       font-size: 20px;
       font-weight: 200;
       font-style: normal; } }
-
-@media screen and (max-width: 768px) {
-  .servicios-card .card {
-    width: 80%; } }
 
 @media screen and (min-width: 768px) {
   .servicios-card .card {
@@ -479,7 +532,7 @@
       grid-template-rows: repeat(2, 50%);
       justify-items: center; } }
 
-.main-index a:hover, .servicios-card .def-serv a:hover {
+.main-index a:hover, .section-cursos .texto-cursos a:hover, .section-faq .texto-faq a:hover, .servicios-card .def-serv a:hover {
   color: black;
   background-color: white;
   transition: 1s; }
@@ -643,7 +696,7 @@ footer {
       grid-template-rows: repeat(2, 50%);
       justify-items: center; } }
 
-.main-index a:hover, .servicios-card .def-serv a:hover {
+.main-index a:hover, .section-cursos .texto-cursos a:hover, .section-faq .texto-faq a:hover, .servicios-card .def-serv a:hover {
   color: black;
   background-color: white;
   transition: 1s; }
