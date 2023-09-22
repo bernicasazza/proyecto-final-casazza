@@ -445,9 +445,9 @@
   border-color: #f2f1ff; }
 
 @media screen and (min-width: 768px) {
-  .section.acordion .acordiones {
-    display: grid;
-    grid-template-columns: 50% 50%; } }
+  .section.acordion {
+    display: flex;
+    flex-direction: row; } }
 
 .servicios-card {
   padding: 5%; }
@@ -512,8 +512,10 @@
       font-style: normal; } }
 
 @media screen and (max-width: 768px) {
-  .servicios-card .card img {
-    height: 40vh; } }
+  .servicios-card .card {
+    overflow: auto; }
+    .servicios-card .card img {
+      height: 40vh; } }
 
 @media screen and (min-width: 768px) {
   .servicios-card .card {
