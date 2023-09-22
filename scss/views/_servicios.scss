@@ -39,7 +39,13 @@ font-size: 20px;
      @extend %grid-serv;
  }
 
-
+ @media screen and (max-width:768px){
+    .servicios-card{
+     .card{
+         width: 700px;
+     }
+    }
+  }
  @media screen and (min-width:768px){
    .servicios-card{
     .card{

@@ -27,15 +27,20 @@
         padding-bottom: 1%;
     }
     input, textarea{
-        background-color: antiquewhite;
+        background-color: rgba(250, 235, 215, 0.805);
         border-radius: 3%;
     }
     div{
-        padding-top: 5%;
+        padding-top: 10%;
         input{
-            background-color: antiquewhite;
+            color: white;
+            background-color: transparent;
             padding: 2%;
-            border-radius: 10%;
+            border-radius: 30px;
+            border-color: antiquewhite;
+        }
+        input:hover{
+            @extend %hover-btn;
         }
     }
 }

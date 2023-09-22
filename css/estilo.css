@@ -7,7 +7,7 @@
       grid-template-rows: repeat(2, 50%);
       justify-items: center; } }
 
-.main-index a:hover, .section-cursos .texto-cursos a:hover, .section-faq .texto-faq a:hover, .servicios-card .def-serv a:hover {
+.main-index a:hover, .section-cursos .texto-cursos a:hover, .section-faq .texto-faq a:hover, .servicios-card .def-serv a:hover, .formulario div input:hover {
   color: black;
   background-color: white;
   transition: 1s; }
@@ -26,7 +26,7 @@
     font-weight: 100; }
   .main-index a {
     border: solid;
-    border-radius: 10px;
+    border-radius: 30px;
     padding: 5px;
     text-decoration: none;
     background-color: rgba(255, 255, 255, 0.054);
@@ -458,7 +458,7 @@
       grid-template-rows: repeat(2, 50%);
       justify-items: center; } }
 
-.main-index a:hover, .section-cursos .texto-cursos a:hover, .section-faq .texto-faq a:hover, .servicios-card .def-serv a:hover {
+.main-index a:hover, .section-cursos .texto-cursos a:hover, .section-faq .texto-faq a:hover, .servicios-card .def-serv a:hover, .formulario div input:hover {
   color: black;
   background-color: white;
   transition: 1s; }
@@ -511,6 +511,10 @@
       font-weight: 200;
       font-style: normal; } }
 
+@media screen and (max-width: 768px) {
+  .servicios-card .card {
+    width: 700px; } }
+
 @media screen and (min-width: 768px) {
   .servicios-card .card {
     margin-left: 20%; } }
@@ -532,7 +536,7 @@
       grid-template-rows: repeat(2, 50%);
       justify-items: center; } }
 
-.main-index a:hover, .section-cursos .texto-cursos a:hover, .section-faq .texto-faq a:hover, .servicios-card .def-serv a:hover {
+.main-index a:hover, .section-cursos .texto-cursos a:hover, .section-faq .texto-faq a:hover, .servicios-card .def-serv a:hover, .formulario div input:hover {
   color: black;
   background-color: white;
   transition: 1s; }
@@ -574,14 +578,16 @@
     padding-top: 5%;
     padding-bottom: 1%; }
   .formulario input, .formulario textarea {
-    background-color: antiquewhite;
+    background-color: rgba(250, 235, 215, 0.805);
     border-radius: 3%; }
   .formulario div {
-    padding-top: 5%; }
+    padding-top: 10%; }
     .formulario div input {
-      background-color: antiquewhite;
+      color: white;
+      background-color: transparent;
       padding: 2%;
-      border-radius: 10%; }
+      border-radius: 30px;
+      border-color: antiquewhite; }
 
 .mapa {
   height: 100vh;
@@ -696,7 +702,7 @@ footer {
       grid-template-rows: repeat(2, 50%);
       justify-items: center; } }
 
-.main-index a:hover, .section-cursos .texto-cursos a:hover, .section-faq .texto-faq a:hover, .servicios-card .def-serv a:hover {
+.main-index a:hover, .section-cursos .texto-cursos a:hover, .section-faq .texto-faq a:hover, .servicios-card .def-serv a:hover, .formulario div input:hover {
   color: black;
   background-color: white;
   transition: 1s; }
