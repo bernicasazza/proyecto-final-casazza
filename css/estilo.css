@@ -511,6 +511,10 @@
       font-weight: 200;
       font-style: normal; } }
 
+@media screen and (max-width: 768px) {
+  .servicios-card .card {
+    overflow: auto; } }
+
 @media screen and (min-width: 768px) {
   .servicios-card .card {
     margin-left: 20%; } }
