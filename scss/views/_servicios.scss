@@ -42,7 +42,10 @@ font-size: 20px;
  @media screen and (max-width:768px){
     .servicios-card{
      .card{
-         overflow: auto;
+        img{
+            height: 40vh;
+        }
+        
      }
     }
   } 

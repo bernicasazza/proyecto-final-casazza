@@ -512,8 +512,8 @@
       font-style: normal; } }
 
 @media screen and (max-width: 768px) {
-  .servicios-card .card {
-    overflow: auto; } }
+  .servicios-card .card img {
+    height: 40vh; } }
 
 @media screen and (min-width: 768px) {
   .servicios-card .card {
